@@ -29,6 +29,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+	padding: 5px;
+}
+
+img.resize {
+		max-height: 100%;
+		max-width: 100%;
+}
+
 body {
 	line-height: 1;
 }
